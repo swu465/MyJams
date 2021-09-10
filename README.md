@@ -20,7 +20,7 @@
 | Student Name | Student Email | GitHub Username |
 |    :---:     |     :---:     |     :---:       |
 | member1      |sjusto@mail.sfsu.edu|     Switch24-7  |
-| member2      |               |                 |
+| member2      |drodriguez@mail.sfsu.edu|UntitledI|
 | member3      |               |                 |
 | member4      |               |                 |
 | member5      |               |                 |
