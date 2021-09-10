@@ -19,8 +19,8 @@
 
 | Student Name | Student Email | GitHub Username |
 |    :---:     |     :---:     |     :---:       |
-| member1      |sjusto@mail.sfsu.edu|     Switch24-7  |
-| member2      |drodriguez@mail.sfsu.edu|UntitledI|
+| Stephen Kelvin Justo      |sjusto@mail.sfsu.edu|     Switch24-7  |
+| Dimitri Rodriquez      |drodriguez@mail.sfsu.edu|UntitledI|
 | Anthony Joshua Hizon     |      ahizon@mail.sfsu.edu         |        AnthonyJHizon         |
 | member4      |               |                 |
 | member5      |               |                 |
