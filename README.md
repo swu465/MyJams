@@ -21,7 +21,7 @@
 |    :---:     |     :---:     |     :---:       |
 | member1      |sjusto@mail.sfsu.edu|     Switch24-7  |
 | member2      |drodriguez@mail.sfsu.edu|UntitledI|
-| member3      |               |                 |
+| Anthony Joshua Hizon     |      ahizon@mail.sfsu.edu         |        AnthonyJHizon         |
 | member4      |               |                 |
 | member5      |               |                 |
 | Simon Wu      |      swu21@mail.sfsu.edu         |     swu465            |
