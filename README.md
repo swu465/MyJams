@@ -22,7 +22,7 @@
 | Stephen Kelvin Justo      |sjusto@mail.sfsu.edu|     Switch24-7  |
 | Dimitri Rodriquez      |drodriguez@mail.sfsu.edu|UntitledI|
 | Anthony Joshua Hizon     |      ahizon@mail.sfsu.edu         |        AnthonyJHizon         |
-| member4      |               |                 |
+| Cameron Paczek      |        cpaczek@mail.sfsu.edu       |        CPaczek         |
 | member5      |               |                 |
 | Simon Wu      |      swu21@mail.sfsu.edu         |     swu465            |
 
