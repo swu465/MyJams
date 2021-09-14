@@ -11,7 +11,7 @@ export default function Nathaniel(){
             </Head>
             <div className={styles.header}>
                 <h1>Nathaniel Ray Duya</h1>
-                <h2>Scrum Lead</h2>
+                <h2>Scrum Master</h2>
             </div>
             <div className={styles.container}>
                 <div>
