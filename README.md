@@ -1,29 +1,72 @@
-# csc648 Repository
+<h2 align="center">MyJams</h2>
 
-## Please when ready add your teams application URL or IP to the repository description. This will help with grading. Teams are expected to keep this value up to date.
+<p align="center">SFSU FA2021 Software Engineering Project</p>
 
-## Please do the following steps before completing Milestone 0.
-1. Change the name of the repository of csc648-fa21-SectionName-teamNN. 
- - fa21 should be [spring,fa]Year where Year should take the last two digits of the four digit year. ex) fa21
- - SectionName should be one of 01, 02, 03 or 04. 
- - teamNN should be your team number. Team numbers whose value is less than 10, please pad with a 0. Ex team 1 is Team01 team 11 is Team11. Please make sure to also remove the username from the repository as well. Teams with incorrectly name repository will have points deducted from their milestone 0 grades.
- - Please follow the above naming convention.
- - Example) csc648-fa21-04-Team01,   csc648-spring22-01-Team05
+### What is MyJams?
 
-1. PLEASE REMOVE THE USERNAME FROM THE REPOSITORY NAME!!!
+**MyJams is a web application designed to recommend music to Spotify users**
 
-2. Add ALL members of your team to this repository. For it to count, they must ACCEPT the invite.
+- Users can **login** via their Spotify account
+- Users can **view** their Spotify playlists
+- Users can **receive song recommendations** based on their preferences
 
-3. Fill out the table below
+## How does it work?
 
+<h3 align="center">Logging in</h3>
+<p align="center">
+  <img src="screenshots/login.gif" />
+</p>
 
-| Student Name | Student Email | GitHub Username |
-|    :---:     |     :---:     |     :---:       |
-| Stephen Kelvin Justo      |sjusto@mail.sfsu.edu|     Switch24-7  |
-| Dimitri Rodriquez      |drodriguez@mail.sfsu.edu|UntitledI|
-| Anthony Joshua Hizon     |      ahizon@mail.sfsu.edu         |        AnthonyJHizon         |
-| Cameron Paczek      |        cpaczek@mail.sfsu.edu       |        CPaczek         |
-| Nathaniel Ray Duya      |       nduya@mail.sfsu.edu        |         NRDuya        |
-| Simon Wu      |      swu21@mail.sfsu.edu         |     swu465            |
+Users will need to have a Spotify account prior to logging into the application. MyJams uses Spotify OAuth in order to receive access to the users' Spotify data. 
 
-## NO code needs to be stored in the root of your repository. You may rename the application folder if you like to your team's application name. But all source code related to your team's application should be stored inside the application folder.
+<h3 align="center">Setting preferences</h3>
+<p align="center">
+  <img src="screenshots/creating-preferences.gif" />
+</p>
+
+From there, users will need to set their "preferences" which tells the application the genre of music to recommend the user as well as specific song attributes to look for such as **popularity, energy level, and acousticness**
+
+<h3 align="center">Recommendations</h3>
+<p align="center">
+  <img src="screenshots/recommendations.gif" />
+</p>
+
+MyJams relies on the Spotify API's recommendation endpoint in order to gather song recommendations for the user. The application recommends songs in batches of 10. Everytime the user successfully goes through 10 songs, MyJams takes the user's choices and sends the data to the backend server where the current preference's song attributes (popularity, energy level, and acousticness) are adjusted to match the user's feedback. This means that the next batch of 10 recommended songs will reflect the users' most recent likes and dislikes.
+
+Users can swipe left and right to dislike and like songs. Users also have the option of clicking on the thumbs down and thumbs up icons to signal their feedback.
+
+<h3 align="center">Profile</h3>
+<p align="center">
+  <img src="screenshots/profile.gif" />
+</p>
+
+Users can also view their public Spotify playlists and songs through MyJams.
+
+## Screenshots
+
+<h3 align="center">Login Page</h3>
+<p align="center">
+  <img src="screenshots/login-page.JPG" />
+</p>
+<h3 align="center">Spotify OAuth</h3>
+<p align="center">
+  <img src="screenshots/spotify-oauth.JPG" />
+</p>
+<h3 align="center">Profile Page</h3>
+<p align="center">
+  <img src="screenshots/profile-page.JPG" />
+</p>
+<h3 align="center">Playlist</h3>
+<p align="center">
+  <img src="screenshots/playlist.JPG" />
+</p>
+<h3 align="center">Preferences Page</h3>
+<p align="center">
+  <img src="screenshots/preferences-page.JPG" />
+</p>
+<h3 align="center">Recommendations Page</h3>
+<p align="center">
+  <img src="screenshots/recommendations-page.JPG" />
+</p>
+
+<h3 align="center">Built using Nuxtjs, Expressjs and MongoDB<h3>
