@@ -70,3 +70,4 @@ Users can also view their public Spotify playlists and songs through MyJams.
 </p>
 
 <h3 align="center">Built using Nuxtjs, Expressjs and MongoDB<h3>
+README.MD credits to : stephenjusto247
